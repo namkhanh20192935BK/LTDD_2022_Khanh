@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACACAC"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="379dp"
+                    android:layout_height="61dp"
+                    android:background="@drawable/button_background"
+                    android:text="KHÔNG GIAN HỌC TẬP"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="390dp"
+                android:layout_height="244dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame">
+
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="183dp"
+                    android:layout_height="65dp"
+                    android:text="Review: là không gian học tập không thể quen thuộc hơn của sinh viên Bách Khoa. Dù không gian học tập rất rộng lớn, nhưng đến mùa thì tình trạng kín chỗ"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView1"
+                    app:layout_constraintHorizontal_bias="0.082"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="162dp"
+                    android:layout_height="241dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.969"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.666"
+                    app:srcCompat="@drawable/tvtqb" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="165dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="8dp"
+                    android:text="TV TẠ QUANG BỬU"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#891924"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.075" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="175dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Địa chỉ: Tầng 2,3,4,5 thư viện Tạ Quang Bửu"
+                    android:textFontWeight="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.349" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/frame">
+
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="168dp"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="124dp"
+                    android:text="Review: là không gian học tập mát mẻ, cũng như sẵn tiện đồ ăn và đồ uống "
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.052"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="164dp"
+                    android:layout_height="230dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.357"
+                    app:srcCompat="@drawable/tvtqb" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="165dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="8dp"
+                    android:text="CIRCLE K"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="#891924"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.075" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="175dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="8dp"
+                    android:text="Địa chỉ: 37 Lê Thanh Nghị, 113 Trần Đại Nghĩa,..."
+                    android:textFontWeight="4"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.36" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="382dp"
+                    android:layout_height="49dp"
+                    android:ellipsize="middle"
+                    android:scrollbarStyle="insideOverlay"
+                    android:text="One Love. One Future"
+                    android:textColor="#891924"
+                    android:textSize="40sp"
+                    android:typeface="normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    tools:layout_editor_absoluteX="-2dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+
